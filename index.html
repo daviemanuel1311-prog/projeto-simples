@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Projeto Simples</title>
+  <meta charset="UTF-8">
+  <title>Davi | Projeto</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #cbd5e1;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: none;
+      background: #22c55e;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      background: #16a34a;
+    }
+
+    .card {
+      background: #1e293b;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>Meu Projeto</h1>
-  <p>Projeto simples de front-end.</p>
+  <header>
+    <h1>Davi Emanuel</h1>
+    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+    <button onclick="clicar()">Entrar em contato</button>
+  </header>
+
+  <div class="card">
+    <h2>Projeto Simples</h2>
+    <p>Primeiro projeto de front-end publicado.</p>
+  </div>
+
+  <script>
+    function clicar() {
+      alert("Contato: seuemail@email.com");
+    }
+  </script>
 
 </body>
 </html>
